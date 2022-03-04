@@ -1,6 +1,5 @@
 const isVowel = function (character) {
-  const allVowels = "aeiou";
-  return allVowels.includes(character.toLowerCase());
+  return "aeiou".includes(character.toLowerCase());
 }
 
 const countVowels = function (string) {
